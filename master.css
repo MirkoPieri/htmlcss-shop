@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#inline { /*  sistemazione titolo */
+  display: inline;
+  padding: 10px;
+  margin: 30px;
+  color: white;
+}
+
+#titolo {
+  height: 80px;
+  width: 100%;
+  border-bottom: solid 1px black;
+  background-color: #666666;
+  position: fixed;
+  z-index: 10000;
+  padding-top: 20px;
+  margin-bottom: 1px;
+}
+
+.icone { /*  icone alto a destra */
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 38px;
+  font-size: 10pt;
+  color: white;
+  padding-top: 4px;
+}
+
+.num2 {
+  padding-left: 80px;
+}
+
+.num3 {
+  padding-left: 160px;
+}
+
+.immagini {
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 15px;
+}
+
+.profilo {
+  padding-left: 80px;
+}
+
+.carrello {
+  padding-left: 160px;
+}
+
+#blocco {
+  padding-top: 100px;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.tablet {
+  width: 300px;
+  height: 372px;
+  background-image: url(immagini/tablet.jpg);
+  background-repeat: no-repeat;
+  margin-left: 15%;
+  margin-top: 5%;
+  position: absolute;
+}
+
+.cuffie {
+  width: 300px;
+  height: 372px;
+  background-image: url(immagini/cuffie.jpg);
+  background-repeat: no-repeat;
+  margin-left: 45%;
+  margin-top: 5%;
+  position: absolute;
+}
+
+.telefono {
+  width: 300px;
+  height: 372px;
+  background-image: url(immagini/telefono.jpg);
+  background-repeat: no-repeat;
+  margin-left: 75%;
+  margin-top: 5%;
+  position: absolute;
+}
+
+#blocco2 {
+  padding-top: 1px;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.test {
+  right: 0;
+}
