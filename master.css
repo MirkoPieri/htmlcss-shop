@@ -97,5 +97,19 @@
 }
 
 .test {
-  right: 0;
+  width: 30px;
+  height: 25px;
+  margin-left: 270px;
 }
+
+.verde {
+  background-color: green;
+}
+
+.rosso {
+  background-color: red;
+}
+
+.tablet:hover {
+ content: '\2605';
+ display: table; }
