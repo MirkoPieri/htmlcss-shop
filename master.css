@@ -53,7 +53,7 @@
 }
 
 #blocco {
-  padding-top: 100px;
+  padding-top: 100px; /* Primo blocco */
   width: 100%;
   height: 500px;
   position: relative;
@@ -89,7 +89,7 @@
   position: absolute;
 }
 
-#blocco2 {
+#blocco2 { /* Secondo blocco */
   padding-top: 1px;
   width: 100%;
   height: 500px;
@@ -110,14 +110,14 @@
   background-color: red;
 }
 
-.icona {
+.icona { /* Icona hover */
   margin-top: 100%;
   margin-left: 50%;
   position: absolute;
   visibility: hidden;
 }
 
-.tablet:hover .icona {
+.tablet:hover .icona { /* Animazione per passaggio mouse */
   visibility: visible;
 }
 
@@ -130,6 +130,12 @@
 }
 
 #footer {
-  border-top: 1px solid grey;
-  margin: 3%;
+  border-top: 1px solid black;
+  background-color: #666666;
+  color: white;
+  padding-top: 1%;
+}
+
+.all {
+  padding: 2%;
 }
