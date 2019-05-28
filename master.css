@@ -110,6 +110,26 @@
   background-color: red;
 }
 
-.tablet:hover {
- content: '\2605';
- display: table; }
+.icona {
+  margin-top: 100%;
+  margin-left: 50%;
+  position: absolute;
+  visibility: hidden;
+}
+
+.tablet:hover .icona {
+  visibility: visible;
+}
+
+.cuffie:hover .icona {
+  visibility: visible;
+}
+
+.telefono:hover .icona {
+  visibility: visible;
+}
+
+#footer {
+  border-top: 1px solid grey;
+  margin: 3%;
+}
